@@ -1,3 +1,13 @@
+---
+tags: readme
+language: ruby
+resources: 0
+track: web development
+topic: ruby
+unit: hello world
+lesson: simple math
+---
+
 # Math
 
 Ruby can perform any operation that a simple calculator can. Open up IRB (open your terminal then type `irb` and hit enter) then type the commands below:
