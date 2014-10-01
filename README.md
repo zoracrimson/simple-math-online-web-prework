@@ -12,13 +12,13 @@ lesson: simple math
 
 ## Introduction
 
-Programs have basic arithmetic built-in. The `+`, `*`, and `/` methods are part of Ruby. 
+Programs have basic arithmetic built-in. The `+`, `*`, and `/` methods are part of Ruby.
 
 Ruby can perform any operation that a simple calculator can. Open up IRB (open your terminal then type `irb` and hit enter) then type the commands below:
 
 * 1 + 1
 * 1 * 3
-* sqrt(81)
+* Math.sqrt(81)
 * 9 ** 2
 
 ## Order of Operation
