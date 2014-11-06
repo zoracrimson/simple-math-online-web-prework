@@ -16,18 +16,26 @@ Programs have basic arithmetic built-in. The `+`, `*`, and `/` methods are part 
 
 Ruby can perform any operation that a simple calculator can. Open up IRB (open your terminal then type `irb` and hit enter) then type the commands below:
 
-* 1 + 1
-* 1 * 3
-* Math.sqrt(81)
-* 9 ** 2
+* `1 + 1`
+* `1 * 3`
+* `Math.sqrt(81)`
+* `9 ** 2`
 
-## Order of Operation
+## Order of Operations
 
-Enclosing an expression in () defines an order of operation.
+Enclosing an expression in parentheses `()` defines an order of operations, like you would [expect](http://en.wikipedia.org/wiki/Order_of_operations).
 
-* 98 +59872/13*8*-51
-* 98 + (59872 / (13*8)) * -51
+* `98 + 59/13 * 8 * -5 = -62` 
+* `98 + (59/(13*8)) * -5 = 98`
 
 ## Division and Intro to Floats
 
-Type `9 / 2`. The result is probably unexpected. This is because Ruby has types. When you call the `/` method on Integers, they return integers. Instead, type `9.0 / 2.0`. Numbers with decimals in Ruby are called Floats and when you divide Floats, the `/` method returns floats.
+Type `9 / 2`. You would expect the result to be 4.5, but it's actually 4. This is because of the type of number you are using. In Ruby, and most programming languages, numbers can be integers (whole numbers), or floats(decimal numbers). When you divide  integers, they return integers without rounding. The decimal is just removed. If you type 9.0, you're creating a float, so  `9.0 / 2.0 = 4.5`. Numbers with decimals are called floats and when you divide floats a float is returned. If you divide a float and an integer, a float will be returned, so `9.0/2 = 4.5`.
+
+## Modulo operator
+
+There is another opperator that is really useful in programming. It's the modulo, and is represented with the percent sign `%`. The modulo operator gives you the remainder of a number divided by another number. So `5 % 3 = 2`
+
+## Practice
+
+Now open `lib/math.rb` and try to get the tests passing. 
