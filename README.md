@@ -34,4 +34,4 @@ There is another opperator that is really useful in programming. It's the modulo
 
 ## Practice
 
-Now open `lib/math.rb` and try to get the tests passing. 
+Now open `lib/math.rb`. You'll find a bunch of empty methods that take numbers as arguments that the methods will use to perform the mathematical operations on. Get the tests passing.
