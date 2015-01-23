@@ -30,7 +30,7 @@ Type `9 / 2`. You would expect the result to be 4.5, but it's actually 4. This i
 
 ## Modulo operator
 
-There is another opperator that is really useful in programming. It's the modulo, and is represented with the percent sign `%`. The modulo operator gives you the remainder of a number divided by another number. So `5 % 3 = 2`
+There is another operator that is really useful in programming. It's the modulo, and is represented with the percent sign `%`. The modulo operator gives you the remainder of a number divided by another number. So `5 % 3 = 2`.
 
 ## Practice
 
