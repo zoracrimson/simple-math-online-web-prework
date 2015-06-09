@@ -34,6 +34,10 @@ Type `9 / 2`. You would expect the result to be 4.5, but it's actually 4. This i
 
 There is another operator that is really useful in programming. It's the modulo, and is represented with the percent sign `%`. The modulo operator gives you the remainder of a number divided by another number. So `5 % 3 = 2`.
 
+## Math module
+
+Ruby has built-in methods for common math functions. The basic trigonometric and transcendental functions are available in the [Math module]("http://ruby-doc.org/core-2.2.0/Math.html"). This gives you access to mathematic tools such as square root, sin, cosine, and tangent via Ruby methods. To access these in your code simply refer to the module `Math` and call the method on the module. For example, to get the square root of 9 you'd write `Math.sqrt(9)`. [Read more about the Math module and the available methods.]("http://ruby-doc.org/core-2.2.0/Math.html")
+
 ## Practice
 
 Now open `lib/math.rb`. You'll find a bunch of empty methods that take numbers as arguments that the methods will use to perform the mathematical operations on. Get the tests passing.
