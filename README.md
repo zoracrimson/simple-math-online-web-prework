@@ -1,9 +1,3 @@
----
-tags: micro, math
-language: ruby
-resources: 0
----
-
 # Math
 
 ## Introduction
