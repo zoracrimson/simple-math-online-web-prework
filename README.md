@@ -36,7 +36,7 @@ There is another operator that is really useful in programming. It's the modulo,
 
 ## Math module
 
-Ruby has built-in methods for common math functions. The basic trigonometric and transcendental functions are available in the [Math module]("http://ruby-doc.org/core-2.2.0/Math.html"). This gives you access to mathematic tools such as square root, sin, cosine, and tangent via Ruby methods. To access these in your code simply refer to the module `Math` and call the method on the module. For example, to get the square root of 9 you'd write `Math.sqrt(9)`. [Read more about the Math module and the available methods.]("http://ruby-doc.org/core-2.2.0/Math.html")
+Ruby has built-in methods for common math functions. The basic trigonometric and transcendental functions are available in the [Math module](http://ruby-doc.org/core-2.2.0/Math.html). This gives you access to mathematic tools such as square root, sin, cosine, and tangent via Ruby methods. To access these in your code simply refer to the module `Math` and call the method on the module. For example, to get the square root of 9 you'd write `Math.sqrt(9)`. [Read more about the Math module and the available methods.](http://ruby-doc.org/core-2.2.0/Math.html)
 
 ## Instructions
 
