@@ -5,7 +5,7 @@
 1. Practice doing basic math in Ruby
 2. Understand how division in Ruby differs from normal division
 3. Understand the modulo operator
-4. Understand the Math module
+4. Play with the Math module
 5. Create appropriate behavior for methods
 
 ## Introduction
