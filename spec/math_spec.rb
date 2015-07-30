@@ -13,7 +13,7 @@ describe "#subtraction" do
 end
 
 describe "#division" do
-  it "divides two numbers from each other" do
+  it "divides one number by another" do
     expect(division(50,2)).to eq(25)
   end
 end
