@@ -10,9 +10,9 @@
 
 ## Introduction
 
-Programs have basic arithmetic built-in. The `+`, `*`, and `/` methods are part of Ruby.
+Programming languages have basic arithmetic built-in. The `+`, `*`, and `/` methods are part of Ruby.
 
-Ruby can perform any operation that a simple calculator can. Open up IRB (open your terminal then type `irb` and hit enter) then type the commands below:
+Ruby can perform any operation that a simple calculator can. Open up IRB (open your terminal then type `irb` and hit enter) and type the commands below:
 
 * `1 + 1`
 * `1 * 3`
@@ -32,7 +32,7 @@ Type `9 / 2`. You would expect the result to be 4.5, but it's actually 4. This i
 
 ## Modulo operator
 
-There is another operator that is really useful in programming. It's the modulo, and is represented with the percent sign `%`. The modulo operator gives you the remainder of a number divided by another number. So `5 % 3 = 2`.
+There is another operator that is really useful in programming. It's the modulo, and it's represented with the percent sign `%`. The modulo operator gives you the remainder of a number divided by another number. So `5 % 3 = 2`.
 
 ## Math module
 
