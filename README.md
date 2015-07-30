@@ -1,16 +1,18 @@
----
-tags: micro, math
-language: ruby
-resources: 0
----
-
 # Math
+
+## Objectives
+
+1. Practice doing basic math in Ruby
+2. Understand how division in Ruby differs from normal division
+3. Understand the modulo operator
+4. Play with the Math module
+5. Create appropriate behavior for methods
 
 ## Introduction
 
-Programs have basic arithmetic built-in. The `+`, `*`, and `/` methods are part of Ruby.
+Programming languages have basic arithmetic built-in. The `+`, `*`, and `/` methods are part of Ruby.
 
-Ruby can perform any operation that a simple calculator can. Open up IRB (open your terminal then type `irb` and hit enter) then type the commands below:
+Ruby can perform any operation that a simple calculator can. Open up IRB (open your terminal then type `irb` and hit enter) and type the commands below:
 
 * `1 + 1`
 * `1 * 3`
@@ -30,8 +32,21 @@ Type `9 / 2`. You would expect the result to be 4.5, but it's actually 4. This i
 
 ## Modulo operator
 
-There is another opperator that is really useful in programming. It's the modulo, and is represented with the percent sign `%`. The modulo operator gives you the remainder of a number divided by another number. So `5 % 3 = 2`
+There is another operator that is really useful in programming. It's the modulo, and it's represented with the percent sign `%`. The modulo operator gives you the remainder of a number divided by another number. So `5 % 3 = 2`.
 
-## Practice
+## Math module
 
-Now open `lib/math.rb` and try to get the tests passing. 
+Ruby has built-in methods for common math functions. The basic trigonometric and transcendental functions are available in the [Math module](http://ruby-doc.org/core-2.2.0/Math.html). This gives you access to mathematic tools such as square root, sin, cosine, and tangent via Ruby methods. To access these in your code simply refer to the module `Math` and call the method on the module. For example, to get the square root of 9 you'd write `Math.sqrt(9)`. [Read more about the Math module and the available methods.](http://ruby-doc.org/core-2.2.0/Math.html)
+
+## Instructions
+
+Open `lib/math.rb`. You'll find a bunch of empty methods that take numbers as arguments. Build the appropriate behavior for each of the following methods:
+- addition
+- subtraction
+- multiplication 
+- division
+- modulo
+- square root
+- order of operation
+
+The lab is test driven, so get the tests to pass.
