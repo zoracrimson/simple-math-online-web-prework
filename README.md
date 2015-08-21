@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Programming languages have basic arithmetic built-in. The `+`, `*`, and `/` methods are part of Ruby.
+Programming languages have basic arithmetic built-in. The `+`, `-`, `*`, and `/` methods are part of Ruby.
 
 Ruby can perform any operation that a simple calculator can. Open up IRB (open your terminal then type `irb` and hit enter) and type the commands below:
 
