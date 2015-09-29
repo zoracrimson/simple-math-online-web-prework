@@ -40,7 +40,7 @@ Ruby has built-in methods for common math functions. The basic trigonometric and
 
 ## Instructions
 
-Open `lib/math.rb`. You'll find a bunch of empty methods that take numbers as arguments. Build the appropriate behavior for each of the following methods:
+Fork and clone this repo and open `lib/math.rb`. You'll find a bunch of empty methods that take numbers as arguments. Build the appropriate behavior for each of the following methods:
 - addition
 - subtraction
 - multiplication 
