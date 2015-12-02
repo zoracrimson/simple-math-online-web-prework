@@ -50,3 +50,5 @@ Fork and clone this repo and open `lib/math.rb`. You'll find a bunch of empty me
 - order of operation
 
 The lab is test driven, so get the tests to pass.
+
+<a href='https://learn.co/lessons/simple-math' data-visibility='hidden'>View this lesson on Learn.co</a>
