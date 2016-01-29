@@ -51,4 +51,4 @@ Fork and clone this repo and open `lib/math.rb`. You'll find a bunch of empty me
 
 The lab is test driven, so get the tests to pass.
 
-<a href='https://learn.co/lessons/simple-math' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/simple-math' title='Math'>Math</a> on Learn.co and start learning to code for free.</p>
